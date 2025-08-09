@@ -1,0 +1,28 @@
+[
+    {
+        "label": "OpenAI",
+        "importPath": "openai",
+        "description": "openai",
+        "isExtraImport": true,
+        "detail": "openai",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "phi-4",
+        "description": "phi-4",
+        "peekOfCode": "client = OpenAI(\n  base_url=\"https://openrouter.ai/api/v1\",\n  api_key=\"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\",\n)\ncompletion = client.chat.completions.create(\n  extra_headers={\n    \"HTTP-Referer\": \"<YOUR_SITE_URL>\", # Optional. Site URL for rankings on openrouter.ai.\n    \"X-Title\": \"<YOUR_SITE_NAME>\", # Optional. Site title for rankings on openrouter.ai.\n  },\n  extra_body={},",
+        "detail": "phi-4",
+        "documentation": {}
+    },
+    {
+        "label": "completion",
+        "kind": 5,
+        "importPath": "phi-4",
+        "description": "phi-4",
+        "peekOfCode": "completion = client.chat.completions.create(\n  extra_headers={\n    \"HTTP-Referer\": \"<YOUR_SITE_URL>\", # Optional. Site URL for rankings on openrouter.ai.\n    \"X-Title\": \"<YOUR_SITE_NAME>\", # Optional. Site title for rankings on openrouter.ai.\n  },\n  extra_body={},\n  model=\"deepseek/deepseek-prover-v2:free\",\n  messages=[\n    {\n      \"role\": \"user\",",
+        "detail": "phi-4",
+        "documentation": {}
+    }
+]
