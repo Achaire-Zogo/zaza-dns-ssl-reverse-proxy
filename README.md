@@ -46,8 +46,8 @@ Il permet d’ajouter ou de supprimer une configuration complète en quelques qu
 Cloner le dépôt puis rendre le script exécutable:
 
 ```bash
-git clone https://github.com/zaz/zaz-dns.git
-cd zaz-dns
+git clone https://github.com/Achaire-Zogo/zaza-dns-ssl-reverse-proxy.git
+cd zaza-dns-ssl-reverse-proxy
 chmod +x dns_ssl_reverse_proxy.sh
 ```
 
